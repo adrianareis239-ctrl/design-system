@@ -14,7 +14,7 @@ export default function DesignSystem() {
         <h1 className={styles.displayName}>Adriana Reis.</h1>
         <p className={styles.displaySub}>A designer's system, in two registers</p>
         <p className={styles.headerDesc}>
-          [Graphic and UX designer based in Brazil. Half my work ships to checkout pages. The other half is the editorial design I keep coming back to.]
+          Graphic and UX designer based in Brazil. Half my work ships to checkout pages. The other half is the editorial design I keep coming back to.
         </p>
         <div className={styles.badgeRow}>
           <span className={`${styles.tag} ${styles.tagSolid}`}>v 1.0.0</span>
@@ -105,7 +105,7 @@ export default function DesignSystem() {
           </div>
           <div className={styles.typeRow}>
             <span className={styles.typeMeta}>Body / 15 / 400</span>
-            <span className={styles.tBody}>[I work with founders building online stores and editors making things worth keeping. The system here is what makes that possible without burning out.]</span>
+            <span className={styles.tBody}>I work with founders building online stores and editors making things worth keeping. The system here is what makes that possible without burning out.</span>
           </div>
           <div className={styles.typeRow}>
             <span className={styles.typeMeta}>Label / 11 / 500 caps</span>
@@ -314,7 +314,7 @@ export default function DesignSystem() {
         <div className={styles.composition}>
           <div className={styles.compMetric}>
             <p className={styles.compMetricTag}>{'// highlight.2025'}</p>
-            <p className={styles.compMetricNum}>[2]×</p>
+            <p className={styles.compMetricNum}>2</p>
             <p className={styles.compMetricUnit}>practices, one studio</p>
           </div>
           <div className={styles.compCopy}>
