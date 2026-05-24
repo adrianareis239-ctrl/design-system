@@ -1,0 +1,5 @@
+Coloque aqui os arquivos da sua fonte PiePie:
+- PiePie.woff2
+- PiePie.woff
+
+Depois descomente o @font-face em app/globals.css.
