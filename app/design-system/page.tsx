@@ -10,11 +10,11 @@ export default function DesignSystem() {
 
       {/* ── HEADER ───────────────────────────────────────────────────────── */}
       <header className={styles.header}>
-        <p className={styles.headerLabel}>Design System / v1.0</p>
-        <h1 className={styles.displayName}>[Your name].</h1>
-        <p className={styles.displaySub}>A system for [your story]</p>
+        <p className={styles.headerLabel}>Design System</p>
+        <h1 className={styles.displayName}>[Adriana].</h1>
+        <p className={styles.displaySub}>A system for [my presentations]</p>
         <p className={styles.headerDesc}>
-          [Your tagline — one sentence that captures what you do and why it matters.]
+          [Translating ideas in design]
         </p>
         <div className={styles.badgeRow}>
           <span className={`${styles.tag} ${styles.tagSolid}`}>v 1.0.0</span>
