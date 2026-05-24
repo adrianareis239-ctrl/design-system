@@ -11,10 +11,10 @@ export default function DesignSystem() {
       {/* ── HEADER ───────────────────────────────────────────────────────── */}
       <header className={styles.header}>
         <p className={styles.headerLabel}>Design System</p>
-        <h1 className={styles.displayName}>[Adriana].</h1>
-        <p className={styles.displaySub}>A system for [my presentations]</p>
+        <h1 className={styles.displayName}>Adriana Reis.</h1>
+        <p className={styles.displaySub}>A designer's system, in two registers</p>
         <p className={styles.headerDesc}>
-          [Translating ideas in design]
+          [Graphic and UX designer based in Brazil. Half my work ships to checkout pages. The other half is the editorial design I keep coming back to.]
         </p>
         <div className={styles.badgeRow}>
           <span className={`${styles.tag} ${styles.tagSolid}`}>v 1.0.0</span>
@@ -89,27 +89,27 @@ export default function DesignSystem() {
         <div className={styles.typeRows}>
           <div className={styles.typeRow}>
             <span className={styles.typeMeta}>Display / 64 / 400</span>
-            <span className={styles.tDisplay}>[Your name]</span>
+            <span className={styles.tDisplay}>Selected work</span>
           </div>
           <div className={styles.typeRow}>
             <span className={styles.typeMeta}>H1 / 40 / 400</span>
-            <span className={styles.tH1}>[Your headline]</span>
+            <span className={styles.tH1}>Selected work</span>
           </div>
           <div className={styles.typeRow}>
             <span className={styles.typeMeta}>H2 / 28 / 600</span>
-            <span className={styles.tH2}>[Your subheading]</span>
+            <span className={styles.tH2}>E-commerce and editorial</span>
           </div>
           <div className={styles.typeRow}>
             <span className={styles.typeMeta}>H3 / 18 / 500</span>
-            <span className={styles.tH3}>[Section title]</span>
+            <span className={styles.tH3}>Recent case study</span>
           </div>
           <div className={styles.typeRow}>
             <span className={styles.typeMeta}>Body / 15 / 400</span>
-            <span className={styles.tBody}>[Description — what you do and why it matters. Sharp and honest.]</span>
+            <span className={styles.tBody}>[I work with founders building online stores and editors making things worth keeping. The system here is what makes that possible without burning out.]</span>
           </div>
           <div className={styles.typeRow}>
             <span className={styles.typeMeta}>Label / 11 / 500 caps</span>
-            <span className={styles.tLabel}>Section label</span>
+            <span className={styles.tLabel}>Project category</span>
           </div>
           <div className={styles.typeRow}>
             <span className={styles.typeMeta}>Mono / 11 / 400</span>
@@ -219,12 +219,12 @@ export default function DesignSystem() {
           </div>
           <div className={`${styles.card} ${styles.cardPrimary}`}>
             <p className={styles.cardLabel}>Primary card</p>
-            <p className={styles.cardTitle}>[Featured work]</p>
+            <p className={styles.cardTitle}>Skincare brand rebuild</p>
             <p className={styles.cardBody}>Use sparingly — once per section max. Draws the eye without shouting.</p>
           </div>
           <div className={`${styles.card} ${styles.cardSignal}`}>
             <p className={styles.cardLabel}>Signal card</p>
-            <p className={styles.cardTitle}>[Call to action]</p>
+            <p className={styles.cardTitle}>Got something in mind?</p>
             <p className={styles.cardBody}>Reserve for the most important action. One per viewport.</p>
           </div>
         </div>
@@ -314,20 +314,20 @@ export default function DesignSystem() {
         <div className={styles.composition}>
           <div className={styles.compMetric}>
             <p className={styles.compMetricTag}>{'// highlight.2025'}</p>
-            <p className={styles.compMetricNum}>[X]×</p>
-            <p className={styles.compMetricUnit}>— [your metric]</p>
+            <p className={styles.compMetricNum}>[2]×</p>
+            <p className={styles.compMetricUnit}>practices, one studio</p>
           </div>
           <div className={styles.compCopy}>
             <p className={styles.compCopyTag}>Numbers speak louder than adjectives.</p>
-            <p className={styles.compCopyH}>[Your boldest claim or achievement — one line, no filler.]</p>
-            <p className={styles.compCopyP}>[Supporting context in two lines max. Let the number do the heavy lifting; the copy just gives it a home.]</p>
+            <p className={styles.compCopyH}>Two practices, one studio.</p>
+            <p className={styles.compCopyP}>E-commerce keeps me sharp on conversion and speed. Editorial keeps me honest about craft and patience. The work gets better when both sides feed each other.</p>
           </div>
         </div>
       </section>
 
       {/* ── FOOTER ───────────────────────────────────────────────────────── */}
       <footer className={styles.footer}>
-        <span className={styles.footerText}>[YOUR NAME] <span className={styles.footerDot}>●</span> DESIGN SYSTEM <span className={styles.footerDot}>●</span> V1.0.0</span>
+        <span className={styles.footerText}>Adriana <span className={styles.footerDot}>●</span> DESIGN SYSTEM <span className={styles.footerDot}>●</span>:)</span>
         <span className={styles.footerFonts}>PiePie + Clash Grotesk</span>
       </footer>
 
